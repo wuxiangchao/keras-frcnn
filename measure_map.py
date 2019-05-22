@@ -6,10 +6,10 @@ import pickle
 from optparse import OptionParser
 import time
 from keras_frcnn import config
-import keras_frcnn.resnet as nn
-from keras import backend as K
-from keras.layers import Input
-from keras.models import Model
+import keras_frcnn.resnet as nn # neural network == resnet
+from keras import backend as K # backend as K
+from keras.layers import Input # Input layer
+from keras.models import Model # Model
 from keras_frcnn import roi_helpers
 from keras_frcnn import data_generators
 from sklearn.metrics import average_precision_score
